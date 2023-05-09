@@ -1,0 +1,226 @@
+
+    /* css Reset  */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(/img/fitness.webp) no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    .left {
+
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 0px;
+    }
+
+    .left img {
+
+        width: 100px;
+        margin: 6px 45px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 10px;
+        font-size: 25px;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        margin: 20px auto;
+        width: 48%;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+
+
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        color: grey;
+        text-decoration: underline;
+    
+    }
+
+    .btn {
+        margin: 10px 9px;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Baloo 2', cursive;
+        padding: 5px 7px;
+    }
+
+    .btn:hover {
+
+        background-color: grey;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 50px;
+        padding: 45px;                                                                                                              
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 14px auto;
+        border-radius: 10px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        text-align: center;
+        width: 384px;
+    }
+
+    .footer{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 165px;
+        background: grey;
+        bottom: 0;
+    
+    }
+
+    .footer p{
+        margin-top: 2rem;
+
+    }
+
+
+    @media screen and (max-width:1092px) {
+        
+
+        header{
+            display: flex;
+            font-size: .4rem;
+        }
+        
+        .left{
+            /* border: 2px solid white; */
+            left: 5px;
+            top: 10px;
+
+        
+        }
+
+        .left .logo-text{
+            font-size: .9rem;
+        }
+        .left img{
+            width: 59px;
+        }
+
+
+        .navbar li a{
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .right{
+            display: flex;
+            flex-direction: column;
+            right: 3px;
+        }
+
+        .right .btn{
+            font-size: .7rem;
+        }
+
+
+        .container {
+            border: 2px solid white;
+            margin: 2rem auto;                                                                                                         
+            width: 70vw;
+            /* overflow: hidden; */
+            margin-top: 0;
+        }
+        .container h2{
+            font-size: 2rem;
+            padding-top: 0;
+
+        }
+
+        .container input{
+width: 200px;
+        }
+
+        
+        .container button{
+            text-align: center;
+            width: 200px;
+            margin: 0;
+            margin-left: 1rem;
+
+        }
+
+        body{
+            background-image: none;
+            background-color: black;
+        
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
